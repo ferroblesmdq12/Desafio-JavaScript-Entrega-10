@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/estilo.css">
+        <title>Validacion Edad</title>
+    </head>
+    <body>
+        <div class="login-container">
+            <h2>Bienvenido</h2>
+    
+            <form id="loginForm">
+                <label for="edadInput">Ingresa tu edad:</label>
+                <input type="number" id="edadInput" required>
+                <button type="button" onclick="validarEdad()">Ingresar</button>
+            </form>
+    
+            <div id="mensaje"></div>
+        </div>
+    </body>
+    <script src="validacionedad.js"></script>
+</html>
